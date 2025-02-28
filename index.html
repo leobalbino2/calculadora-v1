@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="calculadora.js"></script>
+  </head>
+
+  <body> 
+    <form id="formulario" onsubmit="calcular(event)">
+        <h1> CALCULADORA </h1>
+
+        <h2 id="texto"> Insira um número </h2>
+        <input type="number" id="primeiroValor" name="primeiroValor"><br><br>
+
+        <h2 id="texto"> Insira o operador (+, -, *, /) </h2>
+        <input type="text" id="operador" name="operador" maxlength="1" required><br><br>
+
+        <h2 id="texto"> Insira outro número </h2>
+        <input type="number" id="segundoValor" name="segundoValor"><br><br>
+
+        <input type="submit" value="Calcular">
+    </form>
+
+    <h3> Resultado : <span id="resultado"></span></h3>
+  </body>
+</html>
