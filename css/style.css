@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #000000;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  margin: auto;
+  padding: 5vh 0;
+  justify-content: center;
+  background-color: #1f1f20;
+  width: 60vh;
+  height: 80vh;
+  text-align: center;
+  border-top: solid 5px #161616;
+  border-right: solid 5px #161616;
+  box-shadow: #000000 0px 8px 24px;
+}
+
+td {
+  width: 6rem;
+  height: 6rem;
+}
+
+.btn-background {
+  border: solid 3px #000000;
+}
+
+input {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  background-color: #1f1f20;
+  border-bottom: solid 5px #161616;
+  border-left: solid 5px #161616;
+  border-top: solid 5px #66686b;
+  border-right: solid 5px #66686b;
+  box-shadow: #161616 0px 8px 24px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2d2d30;
+}
+
+button:active {
+  background-color: #161616;
+  border-bottom: solid 5px #1f1f20;
+  border-left: solid 5px #1f1f20;
+  border-top: solid 5px #0c0c0c;
+  border-right: solid 5px #0c0c0c;
+}
+
+.screen {
+  color: rgb(211, 211, 211);
+  font-size: 50px;
+  text-align: right;
+}
+
+table {
+  margin: auto;
+  border-spacing: 10px;
+}
