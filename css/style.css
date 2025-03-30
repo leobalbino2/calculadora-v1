@@ -48,6 +48,7 @@ button {
   height: 100%;
   font-size: 30px;
   background-color: #1f1f20;
+  color: #d3d3d3;
   border-bottom: solid 5px #161616;
   border-left: solid 5px #161616;
   border-top: solid 5px #66686b;
@@ -66,6 +67,46 @@ button:active {
   border-left: solid 5px #1f1f20;
   border-top: solid 5px #0c0c0c;
   border-right: solid 5px #0c0c0c;
+}
+
+.red {
+  background-color: #aa1515 !important;
+  border-bottom: solid 5px #6d0c0c;
+  border-left: solid 5px #6d0c0c;
+  border-top: solid 5px #d63c3c;
+  border-right: solid 5px #d63c3c;
+}
+
+.red:hover {
+  background-color: #c03838 !important;
+}
+
+.red:active {
+  background-color: #6d0c0c !important;
+  border-bottom: solid 5px #961010;
+  border-left: solid 5px #961010;
+  border-top: solid 5px #490505;
+  border-right: solid 5px #490505;
+}
+
+.green {
+  background-color: #077531 !important;
+  border-bottom: solid 5px #055724;
+  border-left: solid 5px #055724;
+  border-top: solid 5px #1d924a;
+  border-right: solid 5px #1d924a;
+}
+
+.green:hover {
+  background-color: #158540 !important;
+}
+
+.green:active {
+  background-color: #055724 !important;
+  border-bottom: solid 5px #0f6b33;
+  border-left: solid 5px #0f6b33;
+  border-top: solid 5px #033d19;
+  border-right: solid 5px #033d19;
 }
 
 .screen {

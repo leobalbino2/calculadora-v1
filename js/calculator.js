@@ -1,7 +1,7 @@
 // Calculation variable
 let cal = "";
 
-// This function inserts a value inside both the variable and then shows it to the user
+// This function inserts a value inside the variable and then shows it to the user
 function insert(num) {
     cal += num;
     document.getElementById('result').value = cal;
@@ -19,14 +19,14 @@ function calculate() {
     }
 }
 
-// This function only clears the last number of the cal variable
-function clearScreen() {
+// This function only clears the last number or operator of the cal variable
+function clearLast() {
     cal = cal.slice(0, -1)
     document.getElementById('result').value = cal;
 }
 
-// Alternate version of this function which clears the cal variable and the calculator display of any values
-/*function clearScreen() {
+// Unlike the above, this function clears the cal variable completely
+function clearScreen() {
     cal = "";
     document.getElementById('result').value = "";
-}*/
+}

@@ -18,10 +18,10 @@
           </tr>
           <!-- The onclick event calls the nameFunction -->
           <tr>
-            <td class="btn-background"><button onclick="clearScreen()">C</button></td>
-            <td class="btn-background"><button onclick="insert('/')">/</button></td>
+            <td class="btn-background"><button class="red" onclick="clearScreen()">C</button></td>
+            <td class="btn-background"><button onclick="clearLast('<')"><</button></td>
             <td class="btn-background"><button onclick="insert('*')">*</button></td>
-            <td class="btn-background"><button onclick="insert('-')">-</button></td>
+            <td class="btn-background"><button onclick="insert('/')">/</button></td>
           </tr>
 
           <tr>
@@ -35,14 +35,14 @@
             <td class="btn-background"><button onclick="insert('4')">4</button></td>
             <td class="btn-background"><button onclick="insert('5')">5</button></td>
             <td class="btn-background"><button onclick="insert('6')">6</button></td>
-            <td class="btn-background"><button onclick="insert('.')">.</button></td>
+            <td class="btn-background"><button onclick="insert('-')">-</button></td>
           </tr>
 
           <tr>
             <td class="btn-background"><button onclick="insert('1')">1</button></td>
             <td class="btn-background"><button onclick="insert('2')">2</button></td>
             <td class="btn-background"><button onclick="insert('3')">3</button></td>
-            <td class="btn-background" rowspan="2"><button onclick="calculate()">=</button></td>
+            <td class="btn-background" rowspan="2"><button class="green" onclick="calculate()">=</button></td>
           </tr>
 
           <tr>
